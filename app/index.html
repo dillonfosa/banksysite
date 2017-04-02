@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>apicombo</title>
+    <title>Who is Banksy?</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -17,6 +17,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400|Rubik" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -31,8 +32,8 @@
     <![endif]-->
     
     <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
+    <div class="nav-wrapper red">
+      <a href="index.html" class="brand-logo center black-text"> WHO IS BANKSY?</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
@@ -48,6 +49,20 @@
       </ul>
     </div>
   </nav>
+     
+     <div class="row">
+         <div class="center">
+            <div class="mainbg">
+                <div class="mainbox1">
+            <h3 class="openhdr"><span class="mainspan1">WHO IS</span> <b>BANKSY</b> <span class="quesitonmark">?</span></h3>
+            </div>
+            
+            <h5 class="cta1">Let us explore the <span class="mystery1">mysterious</span> street artist that has the world intrigued. Shall we?</h5>
+            </div>
+            
+<!--             <img class="responsive-img" src="images/mousepic.jpg" alt="banksy mouse pic">-->
+         </div>
+     </div>
       
 
     <!-- build:js scripts/vendor.js -->
@@ -59,19 +74,6 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-     
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS1aYcGGSCSB8QnunT6Qu506SsiiBDPm4&libraries=places&callback=initAutocomplete"
-         async defer></script>
-    <script>
-jQuery(document).ready(function($) {
-  $.ajax({
-  url : "http://api.openweathermap.org/data/2.5/weather?q=London&APPID=ee6596241130f193adf1ba90e625cc10",
-  dataType : "jsonp",
-  success : function(parsed_json) {
-  var location = parsed_json['location']['city'];
-  var temp_f = parsed_json['current_observation']['temp_f'];
-});
-</script>
     
     <script src="scripts/main.js"></script>
     <!-- endbuild -->

@@ -1,15 +1,96 @@
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400|Rubik');
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
 
 body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  background: #F2F2F2;
+  font-family: 'Roboto Mono', monospace;
 }
 
+.red {
+    background-color: #CF020E !important;
+}
 
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 130px;
+    color: black;
+    z-index: 100;
+}
 
+.mainspan1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 130px;
+    color: black;
+    z-index: 100;
+    margin-top: 25px;
+    margin-left: -120px;
+    text-decoration: line-through;
+}
+.quesitonmark{
+    color: #CF020E;
+}
+.openhdr{
+    font-family: 'Rubik', sans-serif;
+    font-size: 130px;
+    color: black;
+    z-index: 100;
+    margin-top: 25px;
+    margin-left: -150px;
+}
+.mainbox1{
+    
+    height: 150px;
+    width: 500px;
+    background-color: #CF020E;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+
+.mainbg{
+    
+  /* Location of the image */
+  background-image: url(../images/mousepic.jpg);
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+/*  background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#CF020E;
+  border: 5px solid #CF020E;
+  
+ height: 900px;
+ width: auto;
+ margin: 25px;
+  }
+
+.cta1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin: 170px;
+    color: red;
+    width: 500px;
+    line-height: 2em;
+    
+}
+
+.mystery1{
+    color: white;
+    font-weight: 300;
+    background-color:#CF020E; 
+    padding: 5px;
+}

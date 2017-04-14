@@ -5,7 +5,10 @@
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
     "materialize": "^0.98.1",
-    "animate.css": "animate-css#^3.5.2"
+    "animate.css": "animate-css#^3.5.2",
+    "shine": "^0.2.8",
+    "wow": "wow.js#^1.1.2",
+    "echojs": "^1.7.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",

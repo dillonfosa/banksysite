@@ -1,96 +1,225 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400|Rubik');
+
 /*
 font-family: 'Rubik', sans-serif;
 font-family: 'Roboto Mono', monospace;
 */
 
-body {
-  background: #F2F2F2;
+body{
+    height: 2000px;
+    background-color: #eaeaea;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Rubik', sans-serif;
+}
+
+#headline{
+    margin-top: -20px;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: -0.1em;
+  font-size: 130px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  z-index: 20;
+  color: #bc1818;
+}
+
+.mainimg{
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  z-index: 10;
+  position: relative;
+  padding-top: 20px;
+}
+
+.brick-bg{
+    background-image: url(../images/brickwall_@2X.png);
+    height: auto;
+    background: cover;
+    width: 100%;
+}
+
+
+.colorbg1{
+    margin-top: -25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(214, 214, 214);
+}
+
+.bg2{
+    background-image: url(../images/concrete_wall_2.png);
+    height: auto;
+    background: cover;
+    width: 100%;
+}
+div{ 
+    
+  width: 100%;
+}
+
+.lndin-p{
+    margin-top: 5px;
+}
+p{
   font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+  max-width: 450px;
+  font-size: 24px;
+  line-height: 44px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
 }
-
-.red {
-    background-color: #CF020E !important;
-}
-
-h3{
-    font-family: 'Rubik', sans-serif;
-    font-size: 130px;
-    color: black;
-    z-index: 100;
-}
-
-.mainspan1{
-    font-family: 'Rubik', sans-serif;
-    font-size: 130px;
-    color: black;
-    z-index: 100;
-    margin-top: 25px;
-    margin-left: -120px;
+.line-out{
     text-decoration: line-through;
-}
-.quesitonmark{
-    color: #CF020E;
-}
-.openhdr{
-    font-family: 'Rubik', sans-serif;
-    font-size: 130px;
-    color: black;
-    z-index: 100;
-    margin-top: 25px;
-    margin-left: -150px;
-}
-.mainbox1{
-    
-    height: 150px;
-    width: 500px;
-    background-color: #CF020E;
-    margin-left: 150px;
-    position: relative;
-    margin-top: 20px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     
 }
-
-.mainbg{
-    
-  /* Location of the image */
-  background-image: url(../images/mousepic.jpg);
-  /* Image is centered vertically and horizontally at all times */
-  background-position: center center;
-  
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-  
-  /* Makes the image fixed in the viewport so that it doesn't move when 
-     the content height is greater than the image height */
-/*  background-attachment: fixed;*/
-  
-  /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
-  
-  /* Pick a solid background color that will be displayed while the background image is loading */
-  background-color:#CF020E;
-  border: 5px solid #CF020E;
-  
- height: 900px;
- width: auto;
- margin: 25px;
-  }
-
-.cta1{
+nav {
+    font-size: 16px;
     font-family: 'Roboto Mono', monospace;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+nav a {
+    color: #444;
+}
+.side-nav li > a {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
     font-size: 30px;
-    margin: 170px;
-    color: red;
-    width: 500px;
-    line-height: 2em;
+    font-weight: 500;
+/*
+    height: 60px;
+    line-height: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+*/
+    text-align: center;
+}
+.side-nav li > a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+/*
+    padding-top: 10px;
+    padding-bottom: 60px;
+*/
+}
+
+.scroll{
+    margin-top: -20px;
+    line-height: 3;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #555555;
+}
+
+
+.bgleft{
+    background-color: #efefef;
+    height: 500px;
+    width: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.maninfo{
+    position: relative;
+    font-size: 60px; 
+/*    margin-top: -50px;*/
+    margin-top: 20px;
     
 }
 
-.mystery1{
-    color: white;
-    font-weight: 300;
-    background-color:#CF020E; 
-    padding: 5px;
+.leftimg1{ 
+margin: 0 auto;
+margin-top: -50px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+
 }
+
+.hdr-right{
+    color: #a6102e;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inforight{
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: -40px;
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 90px;
+    top: 34px;
+  }
+}
+
+
+.gallery {
+    width: 100%;
+    border: 1px solid #EEE;
+}
+
+.placeholder {
+    width: 48%;
+    margin: 1%;
+    float: left;
+    
+}
+
+.placeholder img {
+    border: 1px solid #EEEEEE;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    min-height: 400px;
+    max-height: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gallery-images {
+    width: 45%;
+    margin-left: 35px;
+    float: left;
+}
+
+.image img {
+    width: 31.333%;
+    min-height: 140px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.image img:hover {
+    width: 31.333%;
+    min-height: 140px;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+   
+

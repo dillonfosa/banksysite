@@ -6,7 +6,8 @@ font-family: 'Roboto Mono', monospace;
 */
 
 body{
-    height: 2000px;
+    height: 100%;
+    width:100%;
     background-color: #eaeaea;
 }
 
@@ -30,6 +31,9 @@ h1{
   color: #bc1818;
 }
 
+.help {
+    cursor: help;
+}
 .mainimg{
   max-width: 400px;
   margin: auto;
@@ -117,6 +121,8 @@ nav a {
 */
 }
 
+
+
 .scroll{
     margin-top: -20px;
     line-height: 3;
@@ -137,6 +143,7 @@ nav a {
 }
 
 .maninfo{
+    
     position: relative;
     font-size: 60px; 
 /*    margin-top: -50px;*/
@@ -180,7 +187,7 @@ border-bottom-right-radius: 8px;
 }
 
 .placeholder {
-    width: 48%;
+    width: 50%;
     margin: 1%;
     float: left;
     
@@ -196,17 +203,17 @@ border-bottom-right-radius: 8px;
     min-height: 400px;
     max-height: 500px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   
 }
 
 .gallery-images {
-    width: 45%;
-    margin-left: 35px;
+    width: 55%;
     float: left;
 }
 
 .image img {
     width: 31.333%;
-    min-height: 140px;
+    min-height: 130px;
     float: left;
     margin: 1%;
     cursor: pointer;
@@ -214,7 +221,7 @@ border-bottom-right-radius: 8px;
 
 .image img:hover {
     width: 31.333%;
-    min-height: 140px;
+    min-height: 130px;
     border: 2px solid black;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -222,4 +229,63 @@ border-bottom-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
    
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1771a6;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+
+.modal {
+    background-color: #e0e0e0;
+    padding: 0;
+    max-height: 70%;
+    width: 55%;
+    margin: auto;
+    overflow-y: auto;
+    border-top-left-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+  
+    
+}
+
+.modtext-para{
+    font-size: 14px;
+    line-height: 23px;
+    width: 650px;
+    
+}
+
+.modpic{
+    
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(188, 24, 24, 0.92);
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.spinner-blue, .spinner-blue-only {
+    border-color: #fdfdfd;
+}
+
 

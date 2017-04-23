@@ -6,3 +6,4 @@ function handleMouseMove(event) {
 }
 
 window.addEventListener('mousemove', handleMouseMove, false);
+
